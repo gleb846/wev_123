@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=IBM+Plex+Mono:wght@400;600&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li,
+a {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #161c26;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 120px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a:hover {
+    color: #448fe7;
+}
+
+.base {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+h1 {
+    margin-bottom: 15px;
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 70px;
+    /* text-align: center; */
+    color: #333333;
+
+}
+
+h1 u {
+    text-decoration-color: #448fe7;
+}
+
+.container_1 {
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 650px;
+    height: 300px;
+    background: linear-gradient(to right, #edeef4 80%, #448fe7 20%);
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.container_1:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container_2 {
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 650px;
+    height: 300px;
+    background: linear-gradient(to right, #edeef4 80%, #448fe7 20%);
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.container_2:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.glav {
+    display: flex;
+    justify-content: center;
+}
+
+.glav h2 {
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #333333;
+}
+
+.glav p {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 10px;
+    color: #333333;
+}
+
+
+.glav svg {
+    float: right;
+    margin-right: 5%;
+    margin-top: -6px;
+}
+
+.button_1 {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    color: #ffff;
+    margin-top: 30px;
+    background-color: #448fe7;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.button_1:hover {
+    background-color: #3085e6;
+
+}
+
+.button_2 {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid #3085e6;
+    color: #3085e6;
+    background-color: #ffff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.button_2:hover {
+    background-color: #3085e6;
+    color: #ffff;
+    transition: 0.2s;
+}
+
+footer {
+    background-color: #25262c;
+    margin-top: 40px;
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.footerLogo {
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav {
+    margin: 30px 0;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffff;
+    margin: 20px;
+    font-size: 18px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.footerBottom {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.footerBottom p {
+    color: #dadfe5b3;
+    font-size: 16px;
+}
