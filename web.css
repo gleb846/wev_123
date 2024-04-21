@@ -383,3 +383,9 @@ section h2 {
     color: #333333;
     margin-bottom: 40px;
 }
+
+@media (max-width: 1420px) {
+    .image_1 {
+        display: none;
+    }
+}
